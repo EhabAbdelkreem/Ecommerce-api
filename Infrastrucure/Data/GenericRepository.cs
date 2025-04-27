@@ -64,5 +64,10 @@ namespace Infrastrucure.Data
         {
             _context.Set<T>().Remove(entity);
         }
+
+        public async Task<int> Complete()
+        {
+          return await _context.SaveChangesAsync();
+        }
     }
 }
