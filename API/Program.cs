@@ -1,4 +1,5 @@
 using API.Middleware;
+using AutoMapper;
 using Core.Identity;
 using Core.Interfaces;
 using Infrastructure.Data;
